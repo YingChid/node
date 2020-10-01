@@ -10,4 +10,8 @@ router.get('/all', function(req, res, next) {
   res.send('get all users');
 });
 
+router.post('/', function(req, res, next) {
+  res.send('success');
+});
+
 module.exports = router;
