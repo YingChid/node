@@ -14,4 +14,8 @@ router.post('/', function(req, res, next) {
   res.send('success');
 });
 
+router.delete('/', function(req, res, next) {
+  res.send('success');
+});
+
 module.exports = router;
