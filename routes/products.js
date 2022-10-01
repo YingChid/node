@@ -7,7 +7,11 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/all', function(req, res, next) {
-  res.send('user test')
+  res.send('get all product');
+});
+
+router.delete('/delete', function(req, res, next) {
+  res.send('delete product');
 });
 
 module.exports = router;
